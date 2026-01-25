@@ -1,4 +1,4 @@
-/* Reset & Base Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +6,7 @@
 }
 
 :root {
-    /* Color Palette - Warm & Appetizing */
+    
     --primary-color: #FF6B35;
     --primary-dark: #E85A2A;
     --accent-color: #F4A261;
@@ -20,16 +20,15 @@
     --border-color: #E8D5C4;
     --success-color: #4CAF50;
     
-    /* Shadows */
+
     --shadow-sm: 0 2px 8px rgba(255, 107, 53, 0.1);
     --shadow-md: 0 4px 16px rgba(255, 107, 53, 0.15);
     --shadow-lg: 0 8px 32px rgba(255, 107, 53, 0.2);
     
-    /* Typography */
     --font-primary: 'Poppins', sans-serif;
     --font-display: 'Playfair Display', serif;
     
-    /* Transitions */
+    
     --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -992,4 +991,5 @@ body {
     .features {
         flex-direction: column;
     }
+
 }
